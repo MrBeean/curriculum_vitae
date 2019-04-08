@@ -6,23 +6,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Collapsible sidebar using Bootstrap 4</title>
+  <title>Андрей Сыроежкин - резюме</title>
 
   <!-- Bootstrap CSS CDN -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
   <!-- Our Custom CSS -->
   <link rel="stylesheet" href="css/style2.css">
+  <link rel="stylesheet" href="css/glyphter.css">
   <!-- Scrollbar Custom CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
 
   <!-- Custom fonts for this template --><!-- Custom fonts for this template -->
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
   <!-- Font Awesome JS -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+  <style>
+    .glyphter {
+      /*Set font family style as sample*/
+      font-family: glyphter !important;
+    }
+  </style>
 
 </head>
 
@@ -76,16 +86,22 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="nav navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Page</a>
+                <a class="nav-link" href="#about">Обо мне</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Page</a>
+                <a class="nav-link" href="#experience">Опыт</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Page</a>
+                <a class="nav-link" href="#education">Образование</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Page</a>
+                <a class="nav-link" href="#skills">Навыки</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#interests">Интересы</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#awards">Сертификаты</a>
               </li>
             </ul>
           </div>
@@ -110,19 +126,12 @@
               <a href="https://github.com/MrBeean">
                 <i class="fab fa-github-square fa-3x"></i>
               </a>
-              <a href="https://www.facebook.com/andrei.siroezhkin">
-                <i class="fab fa-facebook-square fa-3x"></i>
-              </a>
-              <a href="https://www.instagram.com/andrei.siroezhkin">
-                <i class="fab fa-instagram fa-3x"></i>
-              </a>
               <a href="http://t-do.ru/MrBeean">
                 <i class="fab fa-telegram fa-3x"></i>
               </a>
               <a href="https://kaluga.hh.ru/resume/b31329eeff03411b860039ed1f58567343697a">
-                <img src="https://i.hh.ru/logos/svg/hh.ru__min_.svg?v=3">
+                <i class="glyphter icon-hh"></i>
               </a>
-
             </div>
           </div>
         </section>
@@ -131,7 +140,7 @@
 
         <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
           <div class="my-auto">
-            <h2 class="mb-5">Опыт <span class="text-primary">работы</span></h2>
+            <h2 class="mb-5">Опыт работы</h2>
 
             <div class="resume-item d-flex flex-column flex-md-row mb-5">
               <div class="resume-content mr-auto">
@@ -284,7 +293,7 @@
 
         <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
           <div class="my-auto">
-            <h2 class="mb-5">Увлечения / <span class="text-primary">интересы</span></h2>
+            <h2 class="mb-5">Увлечения / Интересы</h2>
             <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
             <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the
               front-end web development world.</p>
