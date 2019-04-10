@@ -1,0 +1,8 @@
+.bg-primary {
+  background-color: #bd5d38!important;
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
