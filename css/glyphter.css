@@ -21,3 +21,15 @@
   -moz-osx-font-smoothing: grayscale
 }
 .icon-hh:before{content:'\0041';}
+.icon-rubymine:before{content:'\0042';}
+.icon-postgresql:before{content:'\0043';}
+.icon-heroku:before{content:'\0044';}
+.icon-RSpec:before{content:'\0045';}
+.icon-ruby:before{content:'\0046';}
+.icon-rubyonrails:before {
+  content:'\0047';
+  font-size: 7em;
+  line-height: 0.5;
+}
+.icon-Rubocop:before{content:'\0048';}
+.icon-bootstrap:before{content:'\0049';}
