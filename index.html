@@ -1,313 +1,403 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Andrei Syroezhkin | CV</title>
-  <meta name="description" content="curriculum vitae">
-  <meta name="author" content="Andrei Syroezhkin">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Андрей Сыроежкин - резюме</title>
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i|Tinos:700i&amp;subset=cyrillic"
-        rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Lora:700|Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="css/sidebar.css">
   <link rel="stylesheet" href="css/main.css">
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="css/img_profile.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/content.css">
+  <link rel="stylesheet" href="css/social_icons.css">
+  <link rel="stylesheet" href="css/dev_icons.css">
+  <link rel="stylesheet" href="css/glyphter.css">
 
 </head>
+
 <body>
-<div class="about">
-  <div class="container">
-    <div class="row">
-      <div class="one-third column">
-        <div class="my_img">
-          <img src="images/AndreiS_01.png" alt="Andrei_Syroezhkin" id="I_am">
-        </div>
-        <div class="my_contacts">
-          <ul>
-            <li id="secret">
-              Ruby &amp; Ruby on Rails developer
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto d-block mt-5 mb-2" src="img/profile.jpg" alt="">
+      </div>
+      <div class="sidebar-heading">Андрей Сыроежкин</div>
+      <div class="list-group list-group-flush">
+        <a href="#about" class="list-group-item list-group-item-action bg-light">Обо мне</a>
+        <a href="#experience" class="list-group-item list-group-item-action bg-light">Опыт</a>
+        <a href="#education" class="list-group-item list-group-item-action bg-light">Образование</a>
+        <a href="#skills" class="list-group-item list-group-item-action bg-light">Навыки</a>
+        <a href="#interests" class="list-group-item list-group-item-action bg-light">Интересы</a>
+        <a href="#awards" class="list-group-item list-group-item-action bg-light">Сертификаты</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary border-bottom d-md-none">
+        <a class="navbar-brand">Андрей Сыроежкин</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Обо мне</a>
             </li>
-            <li id="mail">
-              <a href="mailto:andreisyroezhkin@mymail.com"><em>syroezhkin@mymail.com</em></a>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Опыт</a>
             </li>
-            <li id="phone">
-              +7 (920) 000-00-00
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Образование</a>
             </li>
-            <li id="git">
-              <a href="https://github.com/MrBeean" target="_blank"><em>Github page</em></a>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Навыки</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#interests">Интересы</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#awards">Сертификаты</a>
             </li>
           </ul>
         </div>
+      </nav>
+
+
+    <div class="container-fluid p-0">
+      <div class="w-100">
+        <section class="resume-section p-3 p-lg-5 align-items-center" id="about">
+          <h1 class="mt-4">Андрей <span class="text-primary">Сыроежкин</span></h1>
+          <div class="subheading mb-5">Калуга · 38 лет · full stack Ruby on Rails developer</div>
+          <p class="lead mb-5">
+            Более 13 лет работаю в сфере IT. Из них 11 лет в государственном учреждении регионального уровня, и
+            более года в международной финансовой компании.
+            За свою карьеру пробовал свои силы в различных направлениях:<br>
+            · системном администрировании<br>
+            · обеспечении защиты персональных данных<br>
+            · сетевом администрировании<br>
+            · развитии телемедицинской сети<br>
+            · управлении IT отделом<br>
+            · внедрении и сопровождении информационных систем регионального уровня<br>
+            · повышении качества продукта<br>
+            · программировании<br><br>
+
+            Способен быстро изучить новые инструменты и применить их на практике.<br>
+            Нашел свою страсть в разработке и с 2015 года активно занимаюсь Ruby & Ruby on Rails.
+          </p>
+
+          <div class="social-icons">
+            <a href="https://github.com/MrBeean">
+              <i class="fab fa-github-square fa-3x"></i>
+            </a>
+            <a href="http://t-do.ru/MrBeean">
+              <i class="fab fa-telegram fa-3x"></i>
+            </a>
+            <a href="https://kaluga.hh.ru/resume/b31329eeff03411b860039ed1f58567343697a">
+              <i class="glyphter icon-hh"></i>
+            </a>
+            <a href="mailto:mrsitiz@gmail.com">
+              <i class="fas fa-envelope-open-text fa-3x"></i>
+            </a>
+          </div>
+
+        </section>
       </div>
-      <div class="two-thirds column">
-        <h1>Андрей Сыроежкин</h1>
-        <h4>Обо мне:</h4>
-        36 лет<br>
-        г. Калуга<br>
-        готов к переезду или удаленной работе<br><br>
-        <p>
-          Более 12 лет проработал системным администратором. Из них 11 лет в государственном
-          учреждении регионального уровня, во время работы занимался развитием, внедрением и
-          сопровождением различных информационных систем уровня региона.
-          В части реализации себя как программиста - постоянно старался повышать
-          квалификацию (самостоятельно изучал CSS, HTML, PHP, SQL), а так же принимал активное участие в проектировании
-          и
-          разработке различных информационных систем, кроме того мною были
-          разработаны и развернуты несколько web порталов регионального уровня с использованием PHP, MySQL, HTML.
-          <br>
-          С 2015 года активно занимаюсь изучением <b>Ruby & Ruby on Rails</b>.
-          Примеры моих работ можно посмотреть на <a href="https://github.com/MrBeean" target="_blank">Github</a>
-        </p>
+
+      <hr class="m-3">
+
+      <div class="w-100">
+        <section class="resume-section p-3 p-lg-5 align-items-center" id="experience">
+
+          <h2 class="mt-4 mb-5">Опыт</h2>
+
+          <div class="resume-item mt-4 mb-4">
+            <h3 class="mb-0">Программист-разработчик</h3>
+            <div class="subheading mb-3">Lending Solutions Group LLC</div>
+            <div class="text-primary mb-4">январь 2018 — по настоящее время</div>
+            <p class="lead mb-5">
+              Международная финансовая компания, на рынке с середины 2017 года<br>
+              После устройства на работу, обнаружил крайне слабо построенную систему повышения качества продукта.
+              Посовещавшись с руководством, принял решение полностью перейти в QA отдел, где занимался автоматизацией
+              тестирования Ruby on Rails приложений, покрытием кода feature и unit тестами, написанием `изолированных`
+              тестов Rspec + Docker, тестированием API, разработкой на Ruby вспомогательных программ.<br>
+              Активно изучал внедряемые практики, использованные коллегами разработчиками.
+            </p>
+          </div>
+
+          <div class="resume-item mt-4 mb-4">
+            <h3 class="mb-0">Программист-разработчик</h3>
+            <div class="subheading mb-3">ИП Коршунов В. В.</div>
+            <div class="text-primary mb-4">май 2017 — январь 2018</div>
+            <p class="lead mb-5">
+              Разработка на Ruby on Rails.<br>
+              Адаптирование <span class="text-primary">legacy</span> кода под предъявленные требования заказчика.
+            </p>
+          </div>
+
+          <div class="resume-item mt-4 mb-4">
+            <h3 class="mb-0">Удаленное системное/сетевое администрирование, техподдержка</h3>
+            <div class="subheading mb-3">Медицинские учреждения Калужской области</div>
+            <div class="text-primary mb-4">ноябрь 2012 — май 2017</div>
+            <p class="lead mb-5">
+              Во время работы в медицинском информационно-аналитическом центре обнаружил крайне слабое кадровое обеспечение
+              медицинских учреждений в части IT, при этом парк техники таких учреждений редко когда доходил до 10 единиц.<br>
+              После внедрения в регионе защищенной сети передачи данных, появилась возможность удаленного доступа на компьютеры
+              учреждений, а значит и оперативное устранение возникающих проблем без вреда основной работе, что позволило
+              устроиться на пол-ставки в несколько учреждений. С полным перечнем учреждений,
+              а так же списком выполнямой работы можно ознакомится в резюме на сайте <span class="text-primary">
+              <a href="https://kaluga.hh.ru/resume/01891779ff034118250039ed1f70686c526a30">HeadHunter</a></span>
+            </p>
+          </div>
+
+          <div class="resume-item mt-4 mb-4">
+            <h3 class="mb-0">Ведущий специалист</h3>
+            <div class="subheading mb-3">ГБУЗ КО "МИАЦ Калужской области"</div>
+            <div class="text-primary mb-4">май 2005 — февраль 2017</div>
+            <p class="lead mb-5">
+              Медицинский информационно-аналитический центр регионального уровня.<br>
+              Занимался развитием, внедрением и сопровождением различных информационных систем уровня региона.
+              В части реализации себя как программиста - постоянно старался повышать квалификацию, а так же принимал
+              активное участие в проектировании и разработке различных информационных систем, кроме того мною были
+              разработаны и развернуты несколько web порталов регионального уровня. <br>Из достижений можно выделить:<br>
+              - проектировка, внедрение и поддержка корпоративной VPN сети регионального уровня;<br>
+              - проектирование и реализация защищенной сети передачи данных регионального уровня;<br>
+              - проектирование, внедрение и поддержка телемедицинской сети регионального уровня;<br>
+              - внедрение и поддержка информационной системы обеспечения бесплатными лекарствами льготной категории граждан;<br>
+              - проектирование социально-значимой информационной системы по учету и отпуску льготного детского питания регионального уровня;<br>
+              - разработана и внедрена система мотивации сотрудников IT отдела, а также автоматизирована система сбора отчетности.<br>
+            </p>
+          </div>
+
+        </section>
       </div>
+
+      <hr class="m-3">
+
+
+      <div class="w-100">
+        <section class="resume-section p-3 p-lg-5 align-items-center" id="education">
+          <h2 class="mt-4">Образование</h2>
+          <p class="lead">
+            <span class="text-primary">О моем отношении к образованию</span>. Когда на моем жизненном пути замаячил выбор, а где же получать высшее образование,
+            я тогда не смог дать на него ответ, поскольку не мог для себя ответить на вопрос - "Чем я хочу заниматься?".
+            Стоит добавить сюда образование пост-советского пространства, когда учителя пользуются педагогическими
+            инструментами позапрошлого века,  материал подаётся нудно, а материальная база или полностью отсутствует или находится в плачевном состоянии.
+            В итоге, после школы я год проучился в политехническом институте (ну потому что все пошли и я пошел), был отчислен, а после поступил в
+            техникум (опять же потому что, ну что б хоть какое-то образование было).
+          </p>
+          <p class="lead">
+            И совсем другое дело, когда получаемые знания соответствуют предъявленным требованиям, используют последние технологии
+            в сфере, востребованы на рынке труда, а полученные навыки можно тут же применить на практике.<br>
+            Таким образом я встал на тропу самообучения и прохождения специализированных курсов по программированию.
+          </p>
+
+          <div class="resume-item mt-5 mb-5">
+            <h3 class="mb-0">goodprogrammer</h3>
+            <div class="subheading mb-3">Онлайн курс по Ruby on Rails</div>
+            <div class="text-primary">2017</div>
+            <p class="lead">Практический онлайн-интенсив Ruby on Rails</p>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/raUvkzLJnwk?rel=0" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <div class="resume-item mt-5 mb-5">
+            <h3 class="mb-0">geekbrains</h3>
+            <div class="subheading mb-3">Онлайн курс JavaScript</div>
+            <div class="text-primary">2016</div>
+            <p class="lead mb-5">Основы языка JavaScript. Разработка интерактивных веб-приложений</p>
+          </div>
+
+          <div class="resume-item mt-5 mb-5">
+            <h3 class="mb-0">geekbrains</h3>
+            <div class="subheading mb-3">Онлайн курс Ruby / Rails</div>
+            <div class="text-primary">2015</div>
+            <p class="lead mb-5">Основы языка и разработки веб-приложений</p>
+          </div>
+
+          <div class="resume-item mt-5 mb-5">
+            <h3 class="mb-0">geekbrains</h3>
+            <div class="subheading mb-3">Онлайн курс HTML/CSS</div>
+            <div class="text-primary">2015</div>
+            <p class="lead mb-5">Основы создания сайтов</p>
+          </div>
+
+          <div class="resume-item mt-5 mb-5">
+            <h3 class="mb-0">Институт информационных технологий "АйТи"</h3>
+            <div class="subheading mb-3">Техническая защита персональных данных.</div>
+            <div class="text-primary">2009</div>
+            <p class="lead mb-5"></p>
+          </div>
+
+          <div class="resume-item mt-5 mb-5">
+            <h3 class="mb-0">Калужский техникум электронных приборов</h3>
+            <div class="subheading mb-3">Радиоаппаратостроение, Техник-технолог радиоаппаратостроения</div>
+            <div class="text-primary">2000 - 2003</div>
+            <p class="lead mb-5"></p>
+          </div>
+
+        </section>
+      </div>
+
+      <hr class="m-3">
+
+      <div class="w-100">
+
+        <section class="resume-section p-3 p-lg-5 align-items-center" id="skills">
+          <h2 class="mt-4">Навыки</h2>
+          <div class="resume-item mt-4 mb-4">
+            <h3 class="mb-0"></h3>
+            <div class="subheading mb-3">Языки программирования и инструменты</div>
+            <ul class="list-inline dev-icons">
+              <li class="list-inline-item">
+                <i class="glyphter icon-ruby"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="glyphter icon-rubyonrails"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="glyphter icon-RSpec"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="glyphter icon-Rubocop"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="glyphter icon-rubymine"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fab fa-html5 fa-3x"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fab fa-css3-alt fa-3x"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fab fa-js-square fa-3x"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="glyphter icon-bootstrap"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="glyphter icon-postgresql"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fab fa-linux fa-3x"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fab fa-git fa-3x"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fab fa-gitlab fa-3x"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fab fa-gitkraken fa-3x"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="glyphter icon-heroku"></i>
+              </li>
+            </ul>
+
+            <div class="subheading mt-5 mb-3">Рабочий процесс</div>
+            <ul class="fa-ul mb-0">
+              <li>
+                <i class="fa-li fa fa-check"></i>
+                Анализ поставленной задачи</li>
+              <li>
+                <i class="fa-li fa fa-check"></i>
+                TDD / BDD &amp; Unit / Functional testing</li>
+              <li>
+                <i class="fa-li fa fa-check"></i>
+                Ruby style guide / Rubocop</li>
+              <li>
+                <i class="fa-li fa fa-check"></i>
+                Agile Development / Scrum / Kanban</li>
+            </ul>
+          </div>
+
+        </section>
+      </div>
+
+      <hr class="m-3">
+
+      <div class="w-100">
+        <section class="resume-section p-3 p-lg-5 align-items-center" id="interests">
+          <h2 class="mt-4">Интересы</h2>
+          <p class="lead mb-5">
+            Компьютерные игры, ну конечно же, как только у меня появился доступ к компьютеру в конце 90-х страсть к компьютерным играм только росла.
+            А уж сколько времени проведено в онлайн играх, тут лучше оставить без подсчета. Где-то там пылится на космической станции
+            стратегический крейсер класса "Legion" в мире космической вселенной EVE-online и одиноко ждет охотник-троль 110 уровня в WoW online...
+            Но со временем понимаешь, что все это интересно, ровно до тех пор, пока вовлечен в социальную составляющую (Кланы, Корпорации, друзья),
+            как только эта составляющая "затухает" пропадает и интерес к игре, поскольку все сводится к "набиванию" очередного уровня/достижения
+            и нет этому ни конца ни края...<br><br>
+            На текущий момент могу позволить себе пройти какую-нибудь стационарную инди игру или веселые посиделки за приставкой в компании друзей,
+            но конечно же не играми едиными,
+            не меньше игр люблю интересные книги, стараюсь выдерживать некий баланс между художественной литературой,
+            литературой по саморазвитию и проффесиональной литературой (не всегда получается). Кроме этого в интересы можно добавить еще фильмы, рисование,
+            плаванье, решение головоломок.
+          </p>
+        </section>
+      </div>
+
+      <hr class="m-3">
+
+      <div class="w-100">
+        <section class="resume-section p-3 p-lg-5 align-items-center" id="awards">
+          <h2 class="mt-4">Сертификаты</h2>
+          <ul class="fa-ul mt-4 mb-5">
+            <li class="mb-3">
+              <i class="fas fa-scroll"></i>
+              <a href="img/secure.png">Сертификат о повышении квалификации по технической защите персональных данных в информационных системах</a>
+            </li>
+            <li class="mb-3">
+              <i class="fas fa-scroll"></i>
+              <a href="img/RoRgeekbrains.png">Сертификат о прохождении курса "Онлайн курс Ruby / Rails. Основы языка и разработки веб-приложений"</a>
+            </li>
+            <li class="mb-3">
+              <i class="fas fa-scroll"></i>
+              <a href="https://www.sololearn.com/Certificate/1081-4023990/pdf/">Сертификат о прохождении курса по языку программирования Ruby</a>
+            </li>
+            <li>
+          </ul>
+        </section>
+      </div>
+
+      <hr class="m-3">
     </div>
-  </div>
-</div>
 
-<!-- Раздел образование/опыт работы -->
-<div class="education">
-  <div class="container">
-    <div class="row">
-      <div class="one-half column">
-        <h4>Образование:</h4>
-        <p>
-          <b>2000 - 2003</b><br>
-          Калужский техникум электронных приборов <br>
-          Радиоаппаратостроение, Техник-технолог радиоаппаратостроения
-        </p>
-      </div>
-      <div class="one-half column">
-        <h4>Опыт работы:</h4>
-        <p>
-          <b>2005 — 2017</b><br>
-          Название:<br>
-          ГБУЗ КО "МИАЦ Калужской области"<br>
-          Сайт:<br>
-          <a href="http://miac.kaluga.ru" target="_blank">http://miac.kaluga.ru</a><br>
-          Должность:<br>
-          Ведущий специалист <a href="http://kaluga.hh.ru/resume/01891779ff034118250039ed1f70686c526a30"
-                                target="_blank">Подробнее HH.ru =></a>
-        </p>
-        <p>
-          <b>2017 — ...</b><br>
-          Название:<br>
-          Филиал международной финансовой компании<br>
-          Работодатель:<br>
-          <a href="https://kaluga.hh.ru/employer/1096456" target="_blank">IT-компания</a><br>
-          Должность:<br>
-          Ruby on Rails разработчик
-        </p>
-      </div>
     </div>
+    <!-- /#page-content-wrapper -->
+
   </div>
-</div>
+  <!-- /#wrapper -->
 
-<div class="sertificate">
-  <div class="container">
-    <div class="row">
-      <div class="one-half column">
-        <h4>Повышение квалификации:</h4>
-        <p>
-          <b>2009</b><br>
-          Повышение квалификации. Удостоверение<br>
-          Институт информационных технологий "АйТи",<br>
-          Техническая защита персональных данных.
-        </p>
-        <p>
-          <b>2015</b><br>
-          Онлайн курс HTML/CSS<br>
-          <a href="http://geekbrains.ru" target="_blank">Основы создания сайтов</a><br>
-          <b>2015</b><br>
-          Онлайн курс Ruby / Rails<br>
-          <a href="http://geekbrains.ru" target="_blank">Основы языка и разработки веб-приложений</a><br>
-          <b>2016</b><br>
-          Онлайн курс JavaScript<br>
-          <a href="http://geekbrains.ru" target="_blank">Основы языка JavaScript. Разработка интерактивных
-            веб-приложений</a><br>
-        </p>
-        <p>
-          <b>2017</b><br>
-          Онлайн курс по Ruby on Rails<br>
-          <a href="http://goodprogrammer.ru/rails-winter-17" target="_blank">Практический онлайн-интенсив Ruby on
-            Rails</a>
-        </p>
-      </div>
-      <div class="one-half column">
-        <h4>Сертификаты:</h4>
-        <p>
-          <a href="images/RoRgeekbrains.png" target="_blank"><img src="images/RoRgeekbrains.png" id="certeficate"></a>
-        </p>
-        <p>
-          <a href="images/secure.png" target="_blank"><img src="images/secure.png" id="certeficate"></a>
-        </p>
-        <p class="centered">
-          <a class="button" href="https://geekbrains.ru/users/197915#courses-and-certificates" target="_blank">Eще
-            сертификаты</a>
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-<div class="personal_skill">
-  <div class="container">
-    <div class="row">
-      <div class="one-half column">
-        <h4>Личные качества:</h4>
-        Ответственность
-        <div class="level">
-          <progress value="90" max="100"></progress>
-        </div>
-        Организованность
-        <div class="level">
-          <progress value="95" max="100"></progress>
-        </div>
-        Целеустремленность
-        <div class="level">
-          <progress value="100" max="100"></progress>
-        </div>
-        Трудолюбие
-        <div class="level">
-          <progress value="95" max="100"></progress>
-        </div>
-        Усидчивость
-        <div class="level">
-          <progress value="90" max="100"></progress>
-        </div>
-        Аналитические
-        <div class="level">
-          <progress value="85" max="100"></progress>
-        </div>
-        Дипломатия
-        <div class="level">
-          <progress value="80" max="100"></progress>
-        </div>
-        Внимательность
-        <div class="level">
-          <progress value="90" max="100"></progress>
-        </div>
-
-        <p></p>
-        <h4>Уровень английского:</h4>
-        Intermediate
-        <div class="level">
-          <progress value="80" max="100"></progress>
-        </div>
-      </div>
-
-      <div class="one-half column">
-        <h4>Ключевые навыки:</h4>
-        Web-design
-        <div class="level">
-          <progress value="40" max="100"></progress>
-        </div>
-        ООП
-        <div class="level">
-          <progress value="90" max="100"></progress>
-        </div>
-        Ruby
-        <div class="level">
-          <progress value="95" max="100"></progress>
-        </div>
-        Ruby On Rails
-        <div class="level">
-          <progress value="40" max="100"></progress>
-        </div>
-        Git
-        <div class="level">
-          <progress value="80" max="100"></progress>
-        </div>
-        SQL
-        <div class="level">
-          <progress value="50" max="100"></progress>
-        </div>
-        JavaScript
-        <div class="level">
-          <progress value="30" max="100"></progress>
-        </div>
-        HTML5
-        <div class="level">
-          <progress value="80" max="100"></progress>
-        </div>
-        CSS3
-        <div class="level">
-          <progress value="60" max="100"></progress>
-        </div>
-        Bootstrap
-        <div class="level">
-          <progress value="50" max="100"></progress>
-        </div>
-        RVM
-        <div class="level">
-          <progress value="70" max="100"></progress>
-        </div>
-        Spinach
-        <div class="level">
-          <progress value="80" max="100"></progress>
-        </div>
-        RSPEC
-        <div class="level">
-          <progress value="40" max="100"></progress>
-        </div>
-        Selenium Webdriver
-        <div class="level">
-          <progress value="80" max="100"></progress>
-        </div>
-
-        <p></p>
-        <h4>Администрирование:</h4>
-        Администрирование серверов Windows (2003 - 2012)
-        <div class="level">
-          <progress value="80" max="100"></progress>
-        </div>
-        Администрирование серверов Linux
-        <div class="level">
-          <progress value="60" max="100"></progress>
-        </div>
-        Администрирование сетевого оборудования
-        <div class="level">
-          <progress value="95" max="100"></progress>
-        </div>
-        Виртуализация
-        <div class="level">
-          <progress value="75" max="100"></progress>
-        </div>
-        Информационная безопасность
-        <div class="level">
-          <progress value="95" max="100"></progress>
-        </div>
-        Управление проектами
-        <div class="level">
-          <progress value="75" max="100"></progress>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="hire_me">
-  <div class="container">
-    <div class="row">
-      <p class="centered">
-        <a class="button button-primary" href="mailto:syroezhkin@mymail.com">Нанять!</a>
-      </p>
-    </div>
-  </div>
-</div>
+  <!-- Custom scripts for this template -->
+  <script src="js/close_collapsed_navbar.js"></script>
 </body>
+
 </html>
